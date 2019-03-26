@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/ballweera/play-gomvpkg/common/consumer"
 	"github.com/ballweera/play-gomvpkg/event"
+	"github.com/ballweera/play-gomvpkg/kafka"
 )
 
 func main() {
-	consumer.Consume()
+	kafka.Consume()
 	event.Process()
 }

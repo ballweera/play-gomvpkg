@@ -1,7 +1,7 @@
 package event
 
-import "github.com/ballweera/play-gomvpkg/common/consumer"
+import "github.com/ballweera/play-gomvpkg/kafka"
 
 func Process() {
-	consumer.Consume()
+	kafka.Consume()
 }
