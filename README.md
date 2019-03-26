@@ -1,5 +1,5 @@
 # Play gomvpkg
-This is sample to play `gomvpkg` tool that helps for refactoring Go project.
+This is sample to show you how `gomvpkg` tool can  helps for refactoring Go project.
 
 # Caution!
 `gomvpkg` have not been supported by Go module yet. So you need to use it in GOPATH. 
@@ -15,4 +15,4 @@ This is sample to play `gomvpkg` tool that helps for refactoring Go project.
 gomvpkg -from github.com/ballweera/play-gomvpkg/common/consumer -to github.com/ballweera/play-gomvpkg/kafka
 ```
 
-After followed above steps, you should message that `github.com/[your git account]/play-gomvpkg/common/consumer` is renamed to `github.com/[your git account]/play-gomvpkg/kafka` and related files are moved to `kafka` directory.
+After followed above steps, you should see message to confirm that `github.com/[your git account]/play-gomvpkg/common/consumer` is renamed to `github.com/[your git account]/play-gomvpkg/kafka` and related files are moved to `kafka` directory.
